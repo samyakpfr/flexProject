@@ -1,5 +1,8 @@
 *{
     font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 header{
     background-color: #1F2937;
@@ -51,6 +54,7 @@ nav{
 .heroGirl{
     height: auto;
     width: 400px;
+    border-radius: 16px;
 }
 .initiated{
     font-size: 18px;
@@ -123,7 +127,7 @@ nav{
 .donationUrge{
     display: flex;
     background-color: rgb(9, 82, 218);
-    margin: 150px 250px;
+    margin: 70px 100px;
     padding: 45px;
     justify-content: space-around;
     align-items: center;
@@ -151,4 +155,5 @@ footer{
     color: white;
     background-color: #1F2937;
     padding: 40px;
+    margin: 0px;
 }
