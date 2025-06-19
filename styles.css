@@ -1,0 +1,24 @@
+*{
+    font-family: Roboto;
+}
+header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+}
+a{
+   text-decoration: none; 
+}
+.logo{
+    width: 100px;
+    height: auto;
+}
+.nav-item{
+    color: white;
+    font-size: larger;}
+nav{
+    display: flex;
+    gap: 88px;
+    align-items: center;
+}
