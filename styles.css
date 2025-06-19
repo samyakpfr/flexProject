@@ -144,3 +144,9 @@ nav{
     background-color: rgb(9, 82, 218);
     font-size: larger;
 }
+footer{
+    text-align: center;
+    color: white;
+    background-color: #1F2937;
+    padding: 40px;
+}
