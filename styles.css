@@ -98,13 +98,14 @@ nav{
 }
 .quote-section{
     background-color: #E5E7EB;
-    padding: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 150px;
 }
 .quote{
+    text-align: center;
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
@@ -113,10 +114,11 @@ nav{
     flex: 1 1 auto;
 }
 .enlightenter{
-    justify-content: flex-end;
     font-size: 25px;
     font-weight: 800;
     margin-left: auto;
+    color:#1F2937;
+    margin-right: 16rem;
 }
 .donationUrge{
     display: flex;
