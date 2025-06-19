@@ -1,11 +1,13 @@
 *{
     font-family: Roboto;
+
 }
 header{
     background-color: #1F2937;
     display: flex;
     justify-content: space-around;
     padding: 16px;
+    align-items: center;
 }
 a{
    text-decoration: none; 
@@ -21,4 +23,47 @@ nav{
     display: flex;
     gap: 88px;
     align-items: center;
+}
+.hero{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.heroText{
+    color: white;
+    margin-bottom: 64px;
+    align-items: center;
+    margin-left: 7rem;
+    max-width: 500px;
+    margin-top: 64px;
+}
+.heroTitle{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.heroImage{
+    margin-bottom: 64px;
+    max-width: 500px;
+    margin-top: 64px;
+    min-width: 500px;
+}
+.heroGirl{
+    flex: 1;
+}
+.initiated{
+    font-size: 18px;
+    max-width: 100px;
+}
+.donateBtn{
+     margin-bottom: 64px;
+     margin-top: 8px;
+     padding: 10px;
+     width: 200px;
+     background-color: rgb(9, 82, 218);
+     font-size: large;
+     border: none;
+     border-radius:50px;
+     color: white;
 }
